@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["earltedly@gmail.com"]
   spec.description   = %q{Compiles together release notes from the current git repository, optionally fetching the most recent commit number from Hockey.}
   spec.summary       = %q{Compiles together release notes from the current git repository, optionally fetching the most recent commit number from Hockey.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/earltedly/releasenotes"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
