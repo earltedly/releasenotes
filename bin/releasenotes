@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'releasenotes'
+
+runner = Releasenotes::Runner.new(ARGV)
+runner.run
