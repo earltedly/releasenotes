@@ -6,7 +6,7 @@ require 'releasenotes/version'
 Gem::Specification.new do |spec|
   spec.name          = "releasenotes"
   spec.version       = Releasenotes::VERSION
-  spec.authors       = ["earltedly"]
+  spec.authors       = ["Ted Bradley"]
   spec.email         = ["earltedly@gmail.com"]
   spec.description   = %q{Compiles together release notes from the current git repository, optionally fetching the most recent commit number from Hockey.}
   spec.summary       = %q{Compiles together release notes from the current git repository, optionally fetching the most recent commit number from Hockey.}
